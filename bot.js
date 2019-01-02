@@ -351,11 +351,11 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers`);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1play | Last Music`,"http://twitch.tv/Death Shop")
+client.user.setGame(`1play | Creative Family`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
 client.login(process.env.BOT_TOKEN);
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "اي دي الروم الصوتية" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "530009781004664860" && ch.type === 'voice').join();
 });
